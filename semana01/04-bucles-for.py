@@ -56,6 +56,5 @@ total = 0
 
 #Me gustaria saber cuanto he vendido (25.90)
 
-for venta in ventas:
-    total += venta["precio"]
-    print(total)
+total = sum(venta["precio"] for venta in ventas)
+print(total)          
