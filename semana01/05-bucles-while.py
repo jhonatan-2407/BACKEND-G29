@@ -12,3 +12,4 @@ print(type(variable))
 variable_numerica = int(variable)
 print(type(variable_numerica))
 print(variable)
+

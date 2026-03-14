@@ -19,4 +19,5 @@ while intento != numero_ganador:
         print("Felicidades encontraste el número secreto")
 
 print("Fin del juego")
+
     
